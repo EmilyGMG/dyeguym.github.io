@@ -1,0 +1,274 @@
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+}
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+* {
+  padding:0;
+  margin:0;
+}
+.img-bg {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background: url('https://images.unsplash.com/photo-1602921226451-31afa6026846?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80') no-repeat bottom center scroll;
+  background-position: 30% 45%;
+  background-size: cover;
+}
+.title {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-top: 5%;
+}
+.img-bg h1 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.img-bg h1 span {
+  color: rgb(0, 169, 255);
+}
+
+.people img{
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 5%;
+  width: 300px;
+  height: 300px;
+   
+}
+
+.black-bg {
+  background-color: #131313;
+}
+
+.content {
+  display: flex;
+  max-width: 1400px;
+  margin: 0px auto;
+  -moz-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 900px) {
+  .content {
+    flex-wrap: wrap;
+  }
+
+}
+@media screen and (min-width: 900px) {
+  .content {
+    height: 100vh;
+    flex-wrap: nowrap;
+  }
+
+}
+ 
+.card {
+  padding: 0px 1em;
+}
+
+.video-content iframe {
+  height: 390px;
+}
+.video-content iframe {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid rgba(218, 218, 218, 0.14);
+  height: 300px;
+}
+
+.img-svg {
+  width: 50%;
+  margin-top: inherit;
+}
+.img-svg {
+  padding: 0px 1em;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.card-title {
+  color: rgb(255, 255, 255);
+  font-size: 4em;
+  margin: 0px;
+}
+.img-svg {
+  text-align: center;
+}
+
+.card-text {
+  color: rgb(213, 58, 157);
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 4px;
+  margin: 0px;
+  font-size: 1.4em;
+}
+.img-svg {
+  text-align: center;
+}
+
+.card-text2 {
+  color: rgb(255, 255, 255);
+  margin: 2em 2em 3em;
+  font-weight: normal;
+}
+.img-svg {
+  text-align: center;
+}
+
+.card-video {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+}
+
+.video:not(:last-child) {
+  margin-right: 1.5em;
+}
+.video {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  height: 120px;
+}
+ 
+.video-item {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.38);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  z-index: 1;
+}
+.video {
+  text-align: center;
+  cursor: pointer;
+}
+ 
+
+.card-tem {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid rgba(218, 218, 218, 0.14);
+  transition: filter 200ms ease 0s;
+}
+.video {
+  text-align: center;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+  #conference {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.bcxYtT {
+  margin: 0px;
+  color: rgb(0, 169, 255);
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: relative;
+}
+.dryRrI {
+  text-align: center;
+}
+
+.bcxYtT::after {
+  content: "";
+  top: -11px;
+  left: 50%;
+  position: absolute;
+  height: 2px;
+  width: 200px;
+  transform: translateX(-100px);
+  background-color: rgb(0, 169, 255);
+}
+
+/*REDES SOCIAIS*/
+
+.icons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.icons li {
+  position: relative;
+  list-style: none;
+  margin: 0 30px;
+  cursor: pointer;
+}
+
+.icons li a {
+  text-decoration: none;
+}
+
+.icons li a .fa {
+  font-size: 6em;
+  color: #222;
+}
+
+.icons li::before {
+  font-family: fontAwesome;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 6em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  margin-top: -10px;
+}
+
+.icons li:nth-child(1)::before {
+  content: '\f09a';
+  color: #1da1f2;
+  border-bottom: 4px solid #1da1f2;
+}
+
+.icons li:nth-child(2)::before {
+  content: '\f1e8';
+  color: #25d366;
+  border-bottom: 4px solid #25d366;
+}
+
+.icons li:nth-child(3)::before {
+  content: '\f16a';
+  color: #ff0000;
+  border-bottom: 4px solid #ff0000;
+}
+
+.icons li:hover::before {
+  height: 100%;
+}
+
+/*/REDES SOCIAIS*/
